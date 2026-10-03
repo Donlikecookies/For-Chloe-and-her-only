@@ -28,7 +28,6 @@ const SITE = {
       type: "video",
       layout: "split",
       src: "media/videos/beach.mp4",
-      poster: "media/videos/beach.jpg",
       title: "Your laugh",
       text: "I would do anything just to hear your precious laugh, my Queen"
     },
