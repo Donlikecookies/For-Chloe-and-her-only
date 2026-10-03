@@ -50,7 +50,7 @@ const SITE = {
         { src: "media/photos/beautiful-3.jpg", caption: "Aura" },
         { src: "media/videos/beautiful-4.mp4", caption: "I will grovel at your feet and do everything you ask of me" },
         { src: "media/photos/beautiful-5.jpg", caption: "You're perfect" },
-        { src: "media/photos/beautiful-8.jpg", caption: "My heart" },
+        { src: "media/photos/beautiful-7.jpg", caption: "My Love" },
       ],
       text: ""
     },
