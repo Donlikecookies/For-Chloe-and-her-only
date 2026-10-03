@@ -153,7 +153,7 @@ const SITE = {
     "I love it when You lean your head on my shoulder",
     "I love that You love having Your hand in mine",
     "I love Your pretty face so much",
-    "I love that distance can't get in the way of us",
+    "I love that distance can't get in the way of Us",
     "I love Your straightforwardness",
     "I love Your expression when You realize something",
     "I love Your song choices",
