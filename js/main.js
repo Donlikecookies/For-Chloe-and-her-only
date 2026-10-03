@@ -68,9 +68,7 @@
   function mediaHTML(m) {
     if (m.type === "video") {
       const poster = m.poster ? ` poster="${esc(m.poster)}"` : "";
-      return `<video controls playsinline preload="metadata"${poster}>
-        <source src="${esc(m.src)}" type="video/mp4">
-      </video>`;
+      return `<video controls playsinline muted preload="metadata"${poster}>      </video>`;
     }
     return `<img src="${esc(m.src)}" alt="${esc(m.alt || m.title || "")}" loading="lazy">`;
   }
