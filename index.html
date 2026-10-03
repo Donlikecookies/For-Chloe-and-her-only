@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>For You</title>
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#fff7f5">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="locked">
+
+  <section id="cover" class="cover">
+    <p class="cover__eyebrow" id="coverEyebrow"></p>
+    <h1 class="cover__title" id="coverTitle"></h1>
+    <p class="cover__subtitle" id="coverSubtitle"></p>
+    <button class="btn" id="openBtn" type="button">Open &#9829;</button>
+  </section>
+
+  <main id="story" class="hidden">
+    <section class="counter" id="counter"></section>
+    <div id="moments"></div>
+
+    <section class="gallery-section" id="gallerySection">
+      <h2 class="section-title" id="galleryTitle">Our favorite moments</h2>
+      <div class="gallery" id="gallery"></div>
+    </section>
+
+    <section class="reasons" id="reasons">
+      <h2 class="section-title" id="reasonsTitle"></h2>
+      <ol class="reasons__list" id="reasonsList"></ol>
+    </section>
+
+    <section class="letter" id="letter"></section>
+
+    <section class="letter" id="letter"></section>
+    <footer class="footer" id="footer"></footer>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox__btn lightbox__close" id="lbClose" type="button" aria-label="Close">&times;</button>
+    <button class="lightbox__btn lightbox__prev" id="lbPrev" type="button" aria-label="Previous">&#8249;</button>
+    <img id="lbImg" src="" alt="">
+    <video id="lbVideo" controls playsinline></video>
+    <button class="lightbox__btn lightbox__next" id="lbNext" type="button" aria-label="Next">&#8250;</button>
+    <p class="lightbox__cap" id="lbCap"></p>
+  </div>
+
+  <audio id="bgm" loop></audio>
+  <button class="music-btn" id="musicBtn" type="button" aria-label="Toggle music">&#9835;</button>
+
+  <script src="js/content.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
