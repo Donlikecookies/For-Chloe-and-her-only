@@ -29,7 +29,7 @@ const SITE = {
       layout: "split",
       src: "media/videos/beach.mp4",
       title: "Your laugh",
-      text: "I would do anything just to hear your precious laugh, my Queen"
+      text: "I would do anything just to hear your precious laugh"
     },
     {
       type: "pair",
@@ -43,7 +43,7 @@ const SITE = {
     // NEW: a gallery inside the story
     {
       type: "gallery",
-      title: "Your Are Beautiful",
+      title: "You Are Beautiful",
       items: [
         { src: "media/photos/beautiful-1.jpg", caption: "You look like an angel" },
         { src: "media/photos/beautiful-2.jpg", caption: "You are blessing on existence itself" },
